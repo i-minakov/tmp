@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/utag.dir/main.cpp.o  -o utag ../3dparty/taglib/taglib/libtag.a /usr/lib/x86_64-linux-gnu/libz.so 
