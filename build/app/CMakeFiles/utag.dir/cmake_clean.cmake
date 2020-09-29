@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/utag.dir/main.cpp.o"
-  "utag.pdb"
   "utag"
+  "utag.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

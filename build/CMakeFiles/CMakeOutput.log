@@ -1,6 +1,6 @@
-The system is: Linux - 5.3.0-64-generic - x86_64
+The system is: Darwin - 18.7.0 - x86_64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
 Build flags: 
 Id flags:  
 
@@ -10,499 +10,131 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/ilya/Desktop/utag/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
-
-Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_2cde3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2cde3.dir/build.make CMakeFiles/cmTC_2cde3.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2cde3.dir/testCXXCompiler.cxx.o
-/usr/bin/c++    -std=gnu++17 -o CMakeFiles/cmTC_2cde3.dir/testCXXCompiler.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2cde3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cde3.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2cde3.dir/testCXXCompiler.cxx.o  -o cmTC_2cde3 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
+The CXX compiler identification is AppleClang, found in "/Users/iminakov/Desktop/tmp/build/CMakeFiles/3.18.3/CompilerIdCXX/a.out"
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb3e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bb3e2.dir/build.make CMakeFiles/cmTC_bb3e2.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -std=gnu++17 -o CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_bb3e2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb3e2.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bb3e2 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
-OFFLOAD_TARGET_NAMES=nvptx-none:hsa
-OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.2.1-9ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Run Build Command(s):/usr/bin/make cmTC_f554a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f554a.dir/build.make CMakeFiles/cmTC_f554a.dir/build
+Building CXX object CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -std=gnu++17 -o CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -c /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
 Thread model: posix
-gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb3e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVMLFF2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bb3e2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb3e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_f554a
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f554a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f554a 
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_f554a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bb3e2/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bb3e2.dir/build.make CMakeFiles/cmTC_bb3e2.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -std=gnu++17 -o CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_bb3e2]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb3e2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bb3e2 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
-  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
-  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.2.1-9ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f554a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f554a.dir/build.make CMakeFiles/cmTC_f554a.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl -v -std=gnu++17 -o CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -c /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb3e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVMLFF2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bb3e2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccVMLFF2.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-znow] ==> ignore
-    arg [-zrelro] ==> ignore
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_f554a]
+  ignore line: [/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f554a.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f554a ]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_f554a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bb3e2] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_bb3e2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-  implicit fwks: []
+    arg [cmTC_f554a] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f554a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
 
 
-
-
-Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_4b048/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b048.dir/build.make CMakeFiles/cmTC_4b048.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4b048.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -std=gnu++17 -o CMakeFiles/cmTC_4b048.dir/feature_tests.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4b048
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b048.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_4b048.dir/feature_tests.cxx.o  -o cmTC_4b048 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_f87dd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f87dd.dir/build.make CMakeFiles/cmTC_f87dd.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f87dd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -std=gnu++17 -o CMakeFiles/cmTC_f87dd.dir/feature_tests.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f87dd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f87dd.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f87dd.dir/feature_tests.cxx.o  -o cmTC_f87dd 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_bd8ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bd8ab.dir/build.make CMakeFiles/cmTC_bd8ab.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bd8ab.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -std=gnu++17 -o CMakeFiles/cmTC_bd8ab.dir/feature_tests.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bd8ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd8ab.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_bd8ab.dir/feature_tests.cxx.o  -o cmTC_bd8ab 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_99134/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99134.dir/build.make CMakeFiles/cmTC_99134.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_99134.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -std=gnu++17 -o CMakeFiles/cmTC_99134.dir/feature_tests.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_99134
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99134.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_99134.dir/feature_tests.cxx.o  -o cmTC_99134 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_a5bf1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5bf1.dir/build.make CMakeFiles/cmTC_a5bf1.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a5bf1.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -std=gnu++17 -o CMakeFiles/cmTC_a5bf1.dir/feature_tests.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a5bf1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5bf1.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_a5bf1.dir/feature_tests.cxx.o  -o cmTC_a5bf1 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
 Build flags: 
 Id flags:  
 
@@ -512,390 +144,291 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ilya/Desktop/utag/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
-
-Determining if the C compiler works passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_c88f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c88f5.dir/build.make CMakeFiles/cmTC_c88f5.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c88f5.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c88f5.dir/testCCompiler.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_c88f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c88f5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c88f5.dir/testCCompiler.c.o  -o cmTC_c88f5 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
+The C compiler identification is AppleClang, found in "/Users/iminakov/Desktop/tmp/build/CMakeFiles/3.18.3/CompilerIdC/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09b2d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_09b2d.dir/build.make CMakeFiles/cmTC_09b2d.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_09b2d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b2d.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o  -o cmTC_09b2d 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
-OFFLOAD_TARGET_NAMES=nvptx-none:hsa
-OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.2.1-9ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Run Build Command(s):/usr/bin/make cmTC_13be0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13be0.dir/build.make CMakeFiles/cmTC_13be0.dir/build
+Building C object CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -c /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCCompilerABI.c
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
 Thread model: posix
-gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_09b2d' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyrWPG6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_09b2d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_09b2d' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -x c /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_13be0
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13be0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -o cmTC_13be0 
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_13be0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_09b2d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_09b2d.dir/build.make CMakeFiles/cmTC_09b2d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_09b2d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b2d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o  -o cmTC_09b2d ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
-  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
-  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.2.1-9ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_13be0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13be0.dir/build.make CMakeFiles/cmTC_13be0.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl -v -o CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -c /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_09b2d' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyrWPG6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_09b2d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccyrWPG6.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-znow] ==> ignore
-    arg [-zrelro] ==> ignore
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -x c /Users/iminakov/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_13be0]
+  ignore line: [/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13be0.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -o cmTC_13be0 ]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_13be0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_09b2d] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_09b2d.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--push-state] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--pop-state] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--push-state] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--pop-state] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
-  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-  implicit fwks: []
+    arg [cmTC_13be0] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_13be0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
 
 
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_2df0d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2df0d.dir/build.make CMakeFiles/cmTC_2df0d.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2df0d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2df0d.dir/feature_tests.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2df0d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df0d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2df0d.dir/feature_tests.c.o  -o cmTC_2df0d 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_0125a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0125a.dir/build.make CMakeFiles/cmTC_0125a.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0125a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0125a.dir/feature_tests.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0125a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0125a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0125a.dir/feature_tests.c.o  -o cmTC_0125a 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_21976/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21976.dir/build.make CMakeFiles/cmTC_21976.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21976.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_21976.dir/feature_tests.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_21976
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21976.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_21976.dir/feature_tests.c.o  -o cmTC_21976 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e5caf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e5caf.dir/build.make CMakeFiles/cmTC_e5caf.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5caf.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_e5caf.dir/CheckIncludeFile.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e5caf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5caf.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_e5caf.dir/CheckIncludeFile.c.o  -o cmTC_e5caf 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_74c8f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_74c8f.dir/build.make CMakeFiles/cmTC_74c8f.dir/build
+Building C object CMakeFiles/cmTC_74c8f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_74c8f.dir/CheckIncludeFile.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_74c8f
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74c8f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_74c8f.dir/CheckIncludeFile.c.o -o cmTC_74c8f 
+
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b1090/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1090.dir/build.make CMakeFiles/cmTC_b1090.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b1090.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_b1090.dir/CheckIncludeFile.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b1090
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1090.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_b1090.dir/CheckIncludeFile.c.o  -o cmTC_b1090 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_52ebf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52ebf.dir/build.make CMakeFiles/cmTC_52ebf.dir/build
+Building C object CMakeFiles/cmTC_52ebf.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_52ebf.dir/CheckIncludeFile.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52ebf
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52ebf.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_52ebf.dir/CheckIncludeFile.c.o -o cmTC_52ebf 
+
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70c78/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70c78.dir/build.make CMakeFiles/cmTC_70c78.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70c78.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_70c78.dir/CheckIncludeFile.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_70c78
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c78.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_70c78.dir/CheckIncludeFile.c.o  -o cmTC_70c78 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_2f594/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2f594.dir/build.make CMakeFiles/cmTC_2f594.dir/build
+Building C object CMakeFiles/cmTC_2f594.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_2f594.dir/CheckIncludeFile.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2f594
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f594.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2f594.dir/CheckIncludeFile.c.o -o cmTC_2f594 
+
 
 
 Determining size of short passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70e66/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70e66.dir/build.make CMakeFiles/cmTC_70e66.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70e66.dir/SIZEOF_SHORT.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_70e66.dir/SIZEOF_SHORT.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
-Linking C executable cmTC_70e66
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70e66.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_70e66.dir/SIZEOF_SHORT.c.o  -o cmTC_70e66 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_39fe7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_39fe7.dir/build.make CMakeFiles/cmTC_39fe7.dir/build
+Building C object CMakeFiles/cmTC_39fe7.dir/SIZEOF_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_39fe7.dir/SIZEOF_SHORT.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_39fe7
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39fe7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_39fe7.dir/SIZEOF_SHORT.c.o -o cmTC_39fe7 
+
 
 
 Determining size of int passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07106/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07106.dir/build.make CMakeFiles/cmTC_07106.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07106.dir/SIZEOF_INT.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_07106.dir/SIZEOF_INT.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
-Linking C executable cmTC_07106
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07106.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_07106.dir/SIZEOF_INT.c.o  -o cmTC_07106 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_40208/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_40208.dir/build.make CMakeFiles/cmTC_40208.dir/build
+Building C object CMakeFiles/cmTC_40208.dir/SIZEOF_INT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_40208.dir/SIZEOF_INT.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_40208
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40208.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_40208.dir/SIZEOF_INT.c.o -o cmTC_40208 
+
 
 
 Determining size of long long passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1aecd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1aecd.dir/build.make CMakeFiles/cmTC_1aecd.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1aecd.dir/SIZEOF_LONGLONG.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_1aecd.dir/SIZEOF_LONGLONG.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CheckTypeSize/SIZEOF_LONGLONG.c
-Linking C executable cmTC_1aecd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aecd.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_1aecd.dir/SIZEOF_LONGLONG.c.o  -o cmTC_1aecd 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_17460/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_17460.dir/build.make CMakeFiles/cmTC_17460.dir/build
+Building C object CMakeFiles/cmTC_17460.dir/SIZEOF_LONGLONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_17460.dir/SIZEOF_LONGLONG.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CheckTypeSize/SIZEOF_LONGLONG.c
+Linking C executable cmTC_17460
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17460.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_17460.dir/SIZEOF_LONGLONG.c.o -o cmTC_17460 
+
 
 
 Determining size of wchar_t passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2618a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2618a.dir/build.make CMakeFiles/cmTC_2618a.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2618a.dir/SIZEOF_WCHAR_T.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_2618a.dir/SIZEOF_WCHAR_T.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c
-Linking C executable cmTC_2618a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2618a.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_2618a.dir/SIZEOF_WCHAR_T.c.o  -o cmTC_2618a 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_545e2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_545e2.dir/build.make CMakeFiles/cmTC_545e2.dir/build
+Building C object CMakeFiles/cmTC_545e2.dir/SIZEOF_WCHAR_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_545e2.dir/SIZEOF_WCHAR_T.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c
+Linking C executable cmTC_545e2
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545e2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_545e2.dir/SIZEOF_WCHAR_T.c.o -o cmTC_545e2 
+
 
 
 Determining size of float passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88831/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88831.dir/build.make CMakeFiles/cmTC_88831.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_88831.dir/SIZEOF_FLOAT.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_88831.dir/SIZEOF_FLOAT.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CheckTypeSize/SIZEOF_FLOAT.c
-Linking C executable cmTC_88831
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88831.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_88831.dir/SIZEOF_FLOAT.c.o  -o cmTC_88831 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_80693/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_80693.dir/build.make CMakeFiles/cmTC_80693.dir/build
+Building C object CMakeFiles/cmTC_80693.dir/SIZEOF_FLOAT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_80693.dir/SIZEOF_FLOAT.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CheckTypeSize/SIZEOF_FLOAT.c
+Linking C executable cmTC_80693
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80693.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_80693.dir/SIZEOF_FLOAT.c.o -o cmTC_80693 
+
 
 
 Determining size of double passed with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0fc57/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0fc57.dir/build.make CMakeFiles/cmTC_0fc57.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0fc57.dir/SIZEOF_DOUBLE.c.o
-/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_0fc57.dir/SIZEOF_DOUBLE.c.o   -c /home/ilya/Desktop/utag/build/CMakeFiles/CheckTypeSize/SIZEOF_DOUBLE.c
-Linking C executable cmTC_0fc57
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fc57.dir/link.txt --verbose=1
-/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_0fc57.dir/SIZEOF_DOUBLE.c.o  -o cmTC_0fc57 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_7dc66/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7dc66.dir/build.make CMakeFiles/cmTC_7dc66.dir/build
+Building C object CMakeFiles/cmTC_7dc66.dir/SIZEOF_DOUBLE.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_7dc66.dir/SIZEOF_DOUBLE.c.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CheckTypeSize/SIZEOF_DOUBLE.c
+Linking C executable cmTC_7dc66
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dc66.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7dc66.dir/SIZEOF_DOUBLE.c.o -o cmTC_7dc66 
+
 
 
 Performing C++ SOURCE FILE Test HAVE_STD_ATOMIC succeeded with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c2c3d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c2c3d.dir/build.make CMakeFiles/cmTC_c2c3d.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c2c3d.dir/src.cxx.o
-/usr/bin/c++    -Wall -DHAVE_STD_ATOMIC   -o CMakeFiles/cmTC_c2c3d.dir/src.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_c2c3d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2c3d.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall -DHAVE_STD_ATOMIC    -rdynamic CMakeFiles/cmTC_c2c3d.dir/src.cxx.o  -o cmTC_c2c3d 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_3dc1a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3dc1a.dir/build.make CMakeFiles/cmTC_3dc1a.dir/build
+Building CXX object CMakeFiles/cmTC_3dc1a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -DHAVE_STD_ATOMIC -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_3dc1a.dir/src.cxx.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3dc1a
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dc1a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -DHAVE_STD_ATOMIC -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3dc1a.dir/src.cxx.o -o cmTC_3dc1a 
+
 
 Source file was:
 
   #include <atomic>
   int main() {
-    std::atomic<unsigned int> x;
-    x.fetch_add(1);
-    x.fetch_sub(1);
+    std::atomic_int x(1);
+    ++x;
+    --x;
     return 0;
   }
 
 Performing C++ SOURCE FILE Test HAVE_GCC_BYTESWAP succeeded with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_46aec/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46aec.dir/build.make CMakeFiles/cmTC_46aec.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_46aec.dir/src.cxx.o
-/usr/bin/c++    -Wall -DHAVE_GCC_BYTESWAP   -o CMakeFiles/cmTC_46aec.dir/src.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
-/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx:3:24: warning: statement has no effect [-Wunused-value]
-    3 |       __builtin_bswap16(0);
-      |       ~~~~~~~~~~~~~~~~~^~~
-/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx:4:24: warning: statement has no effect [-Wunused-value]
-    4 |       __builtin_bswap32(0);
-      |       ~~~~~~~~~~~~~~~~~^~~
-/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx:5:24: warning: statement has no effect [-Wunused-value]
-    5 |       __builtin_bswap64(0);
-      |       ~~~~~~~~~~~~~~~~~^~~
-Linking CXX executable cmTC_46aec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46aec.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall -DHAVE_GCC_BYTESWAP    -rdynamic CMakeFiles/cmTC_46aec.dir/src.cxx.o  -o cmTC_46aec 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_0f8c9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0f8c9.dir/build.make CMakeFiles/cmTC_0f8c9.dir/build
+Building CXX object CMakeFiles/cmTC_0f8c9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -DHAVE_GCC_BYTESWAP -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_0f8c9.dir/src.cxx.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/src.cxx:3:5: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+    __builtin_bswap16(0);
+    ^~~~~~~~~~~~~~~~~ ~
+/Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/src.cxx:4:5: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+    __builtin_bswap32(0);
+    ^~~~~~~~~~~~~~~~~ ~
+/Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/src.cxx:5:5: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+    __builtin_bswap64(0);
+    ^~~~~~~~~~~~~~~~~ ~
+3 warnings generated.
+Linking CXX executable cmTC_0f8c9
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f8c9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -DHAVE_GCC_BYTESWAP -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0f8c9.dir/src.cxx.o -o cmTC_0f8c9 
+
 
 Source file was:
 
-    int main() {
-      __builtin_bswap16(0);
-      __builtin_bswap32(0);
-      __builtin_bswap64(0);
-      return 0;
-    }
-  
-Performing C++ SOURCE FILE Test HAVE_VSNPRINTF succeeded with the following output:
-Change Dir: /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp
+  int main() {
+    __builtin_bswap16(0);
+    __builtin_bswap32(0);
+    __builtin_bswap64(0);
+    return 0;
+  }
 
-Run Build Command:"/usr/bin/make" "cmTC_8d967/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d967.dir/build.make CMakeFiles/cmTC_8d967.dir/build
-make[1]: Entering directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8d967.dir/src.cxx.o
-/usr/bin/c++    -Wall -DHAVE_VSNPRINTF   -o CMakeFiles/cmTC_8d967.dir/src.cxx.o -c /home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_8d967
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d967.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall -DHAVE_VSNPRINTF    -rdynamic CMakeFiles/cmTC_8d967.dir/src.cxx.o  -o cmTC_8d967 
-make[1]: Leaving directory '/home/ilya/Desktop/utag/build/CMakeFiles/CMakeTmp'
+Performing C++ SOURCE FILE Test HAVE_VSNPRINTF succeeded with the following output:
+Change Dir: /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1e0b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e1e0b.dir/build.make CMakeFiles/cmTC_e1e0b.dir/build
+Building CXX object CMakeFiles/cmTC_e1e0b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -DHAVE_VSNPRINTF -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_e1e0b.dir/src.cxx.o -c /Users/iminakov/Desktop/tmp/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e1e0b
+/Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e0b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -DHAVE_VSNPRINTF -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e1e0b.dir/src.cxx.o -o cmTC_e1e0b 
+
 
 Source file was:
 

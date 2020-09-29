@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.18.3)
 
 set(CMAKE_CXX_STANDARD 17)
 set(NAME utag)
@@ -12,9 +12,12 @@ add_compile_options(
     -Wextra
     -Werror
     -Wpedantic
+    #-fsanitize=address
 )
 
 find_library(TAGLIB libtag)
+
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 include_directories(
     ../build/3dparty/taglib
@@ -42,6 +45,4 @@ add_executable(${NAME} ${SOURCE_EXE})
 
 add_subdirectory(src)
 
-target_link_libraries(${NAME} tag)
-
-#file(COPY ./resources DESTINATION ./)
+target_link_libraries(${NAME} tag app Qt5::Widgets Qt5::Core -lpthread)

@@ -4,9 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ilya/Desktop/utag/app/main.cpp" "/home/ilya/Desktop/utag/build/app/CMakeFiles/utag.dir/main.cpp.o"
+  "/Users/iminakov/Desktop/tmp/app/main.cpp" "/Users/iminakov/Desktop/tmp/build/app/CMakeFiles/utag.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_NO_DEBUG"
+  "QT_WIDGETS_LIB"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -29,11 +37,20 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../app/../3dparty/taglib/taglib/wavpack"
   "../app/../3dparty/taglib/taglib/xm"
   "../app/../3dparty/taglib/taglib"
+  "/Users/iminakov/.brew/Cellar/qt/5.15.1/lib/QtWidgets.framework"
+  "/Users/iminakov/.brew/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers"
+  "/Users/iminakov/.brew/Cellar/qt/5.15.1/lib/QtGui.framework"
+  "/Users/iminakov/.brew/Cellar/qt/5.15.1/lib/QtGui.framework/Headers"
+  "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+  "/Users/iminakov/.brew/Cellar/qt/5.15.1/lib/QtCore.framework"
+  "/Users/iminakov/.brew/Cellar/qt/5.15.1/lib/QtCore.framework/Headers"
+  "/Users/iminakov/.brew/Cellar/qt/5.15.1/./mkspecs/macx-clang"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ilya/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
+  "/Users/iminakov/Desktop/tmp/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
+  "/Users/iminakov/Desktop/tmp/build/app/src/CMakeFiles/app.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

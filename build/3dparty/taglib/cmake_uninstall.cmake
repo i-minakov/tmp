@@ -1,14 +1,14 @@
-if (NOT EXISTS "/home/ilya/Desktop/utag/build/3dparty/taglib/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/ilya/Desktop/utag/build/3dparty/taglib/install_manifest.txt\"")
+if (NOT EXISTS "/Users/iminakov/Desktop/tmp/build/3dparty/taglib/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/iminakov/Desktop/tmp/build/3dparty/taglib/install_manifest.txt\"")
 endif()
 
-file(READ "/home/ilya/Desktop/utag/build/3dparty/taglib/install_manifest.txt" files)
+file(READ "/Users/iminakov/Desktop/tmp/build/3dparty/taglib/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
   message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
   if (EXISTS "$ENV{DESTDIR}${file}")
     execute_process(
-      COMMAND /usr/bin/cmake -E remove "$ENV{DESTDIR}${file}"
+      COMMAND /Users/iminakov/.brew/Cellar/cmake/3.18.3/bin/cmake -E remove "$ENV{DESTDIR}${file}"
       OUTPUT_VARIABLE rm_out
       RESULT_VARIABLE rm_retval
     )

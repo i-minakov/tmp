@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tag_c.dir/tag_c.cpp.o"
-  "libtag_c.pdb"
   "libtag_c.a"
+  "libtag_c.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
