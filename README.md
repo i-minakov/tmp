@@ -5,7 +5,7 @@
 ## How to use
 
 ### Must Have (dependencies)
-- CMake 3.18.2 or above - https://cmake.org/download
+- CMake 3.18.3 or above - https://cmake.org/download
 - Qt 5.15 or above - https://www.qt.io/download
 
 ### Building
